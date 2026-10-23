@@ -33,30 +33,31 @@ let accion = "";
 
 //FUNCIONES 
 function anadeMensajeALogs(logs, mensaje){
-    //TODO
+    //TODO, Alejandro
 }
 
 function iniciarSesion(mapaUsuarios, sesionesActivas, logs, email, pass){
-    //TODO
+    //TODO, Alejandro
 }
 
 function comprobarSesionValida(sesionesActivas, token){
-    //TODO
+    //TODO, Juan Francisco Martin
 }
 
 function recuperaUsuarioYRol(mapaUsuarios, email){
-    //TODO
+    //TODO, Juan Francisco Martin
 }
 
 function concedePermiso(mapaPermisosRol, rol, permiso){
-    //TODO
+    //TODO, Pedro Silvente
 }
 
 function verificarPermiso(mapaUsuarios, mapaPermisosRol, sesionesActivas, logs, token, permisoRequerido){
-    //TODO
+    //TODO, Juan Francisco Castillo
 }
 
 //-------------------PRINCIPAL--------
+// Juan Francisco Castillo y Pedro Silvente
 email = prompt("Introduce tu email: ");
 password = prompt("Introduce el password: ");
 accion = prompt("¿Qué acción quiere realizar (CREAR, LEER, MODIFICAR, ELIMINAR)?: ");
