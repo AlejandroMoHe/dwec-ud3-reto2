@@ -32,6 +32,10 @@ let password = "";
 let accion = "";
 
 //FUNCIONES 
+function anadeMensajeALogs(logs, mensaje){
+    //TODO
+}
+
 function iniciarSesion(mapaUsuarios, sesionesActivas, logs, email, pass){
     //TODO
 }
