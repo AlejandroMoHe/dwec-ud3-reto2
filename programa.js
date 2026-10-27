@@ -106,6 +106,17 @@ function verificarPermiso(mapaUsuarios, mapaPermisosRol, sesionesActivas, logs, 
     //TODO, Juan Francisco Castillo
 }
 
+function mostrarHistorialAuditoria(logs){
+    //TODO, Juan Francisco Castillo
+    console.log("------------------------------------------");
+    console.log("        HISTORIAL DE AUDITORÍA            ");
+    console.log("------------------------------------------");
+    
+    for(let i=0; i<logs.length; i++){
+        console.log((i+1) +". ["+ logs[i].fecha + "] " + logs[i].email + " | " + logs[i].accion + " | " + logs[i].resultado);
+    }
+}
+
 
 //-------------------PRINCIPAL--------
 // Juan Francisco Castillo y Pedro Silvente
