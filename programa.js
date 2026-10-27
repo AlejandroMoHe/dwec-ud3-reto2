@@ -1,4 +1,6 @@
 //CONSTANTES 
+const TIEMPO_EXPIRACION_MS = 30 * 60 * 1000;
+
 const mapaPermisosRol = new Map([
     ["ADMIN", new Set(["LEER", "CREAR", "MODIFICAR", "ELIMINAR"])],
     ["EDITOR", new Set(["LEER", "CREAR", "MODIFICAR"])],
