@@ -38,13 +38,14 @@ let rol = "";
 
 //FUNCIONES 
 function anadeMensajeALogs(logs, mensaje) {
+    //TODO, Alejandro Molina
     //Esta función es para facilitar la inserción de los mensajes en logs
     logs.push(mensaje);
 }
 
 
 function iniciarSesion(mapaUsuarios, sesionesActivas, logs, email, pass) {
-
+    //TODO, Alejandro Molina
     // 1. Si el usuario no existe, se registra el fallo y salimos.
     if (!mapaUsuarios.has(email)) {
         anadeMensajeALogs(logs, {
